@@ -1,0 +1,43 @@
+/* Task 1 */
+.study{
+    background-color: rosybrown;
+    font-size: 20px;
+}
+
+/* Task 2 */
+.task-2{
+    color: darkcyan;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* text-align: end; */
+    /* text-align: justify; */
+    /* font-size: 20px; */
+    
+}
+
+.kala{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+ul{
+    color: royalblue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Task 3 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sample{
+    background-color: rgb(31, 134, 134);
+}
+.senior{
+    border: 2px solid rebeccapurple;
+}
+

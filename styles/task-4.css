@@ -1,0 +1,39 @@
+/* Task 4 */
+.one{
+    background-color: lightcoral;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    height: 700px;
+    background-image: url("./Icon/flat-lay-workstation-with-copy-space-laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+}
+.two{
+    height: 200px;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    background-color: lightblue;
+    background-image: url("./Icon/plant-twigs-leaves-near-laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.three{
+    height: 200px;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    background-color: lightgreen;
+    background-image: url("./Icon/13955212_5399717.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+.four{
+    /* height: 200px; */
+    margin: 50px 50px;
+    padding: 50px 50px;
+    background-color: lightcyan;
+    background-image: url("./Icon/6cbb36a34afe45944dc1280aed5f9c0c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}

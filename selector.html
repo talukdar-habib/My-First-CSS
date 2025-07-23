@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+
+        <style>
+            /* Universal selector */
+            /* *{
+                margin: 0;
+                padding: 0;
+            } */
+
+            p{
+                color: rebeccapurple;
+            }
+
+            li{
+                color: blue;
+            }
+
+            .bold, li{
+                font-weight: bold;
+            }
+
+            .red{
+                background-color: darkcyan;
+            }
+
+            #pen{
+                font-size: 40px;
+                color: red;
+            }
+
+            /* Attribute Selector */
+            input[type="password"]{
+                font-size: 20px;
+                color: rebeccapurple;
+            }
+
+            .hola{
+                background-color: bisque;
+            }
+        </style>
+
+
+</head>
+<body>
+        <h1>Explore Mixed Selectors</h1>
+
+        <p>My First <span style="color: saddlebrown;">line CSS</span></p>
+        <p>My Second line CSS</p>
+        <p class="red bold">My Third line CSS</p>
+        <p class="bold" id="pen">My Fourth line CSS</p>
+        <p>My Fifth line CSS</p>
+        <p>My Sixth line CSS</p>
+        <p class="red" pi>My Seventh line CSS</p>
+        <p class="red">My Eighth line CSS</p>
+
+        <ol>
+            <li>ID Selector</li>
+            <li class="bold">Class Selector</li>
+            <li class="red">Element Selector</li>
+            <li>Universal Selector</li>
+            <li>Attribute Selector</li>
+        </ol>
+
+        <form action="">
+            <input type="text">
+            <br> <br>
+            <input type="password">
+        </form>
+
+        <div class="hola">
+            <h2>Hola Amigos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate blanditiis commodi quis modi perferendis ducimus hic sit magni dolor repellendus deleniti eius atque consectetur mollitia alias soluta, dolorem enim saepe.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam velit maiores voluptatem dicta ipsum dignissimos, animi blanditiis minus, recusandae cum, nostrum aut quisquam fugiat porro a. Aperiam modi harum reiciendis.</p>
+        </div>
+</body>
+</html>

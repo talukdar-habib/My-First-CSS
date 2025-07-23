@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 400px;
+    /* background-color: rgb(221, 182, 153); */
+    background-image: url("../styles/emoji.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* background-size: 300px; */
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2{
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.blog{
+    margin: 50px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 30px blue;
+        
+}
+
+    .incident{
+        border: 2px solid red;
+        /* display: block; */
+        margin: 20px;
+        padding: 20px;
+        display: inline-block;
+    }
+
+    li{
+        /* display: inline; */
+    }
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
